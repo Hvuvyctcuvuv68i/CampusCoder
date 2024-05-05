@@ -1,0 +1,76 @@
+.sp {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.usersec {
+  margin-bottom: 20px;
+  font-size: 16.5px;
+  margin-left: 41%;
+}
+
+.usersec label {
+  display: block;
+  margin-bottom: 5px;
+  width: fit-content;
+}
+
+.usersec input[type="text"],
+.usersec input[type="file"] {
+  margin-bottom: 10px;
+  padding: 3px;
+  width: 50%;
+  border-radius: 0.7rem;
+}
+
+.usersec button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: var(--text-color-100);
+  border: none;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  border-radius: 0.7rem;
+}
+
+.uploadeddata {
+  border-top: 1px solid var(--text-color-100);
+  padding-top: 20px;
+}
+
+.uploadeddata h4 {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+.output-div {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  margin-left: 13rem;
+  flex-wrap: wrap;
+  width: 70%;
+  height: 42vh;
+}
+
+.inner-div {
+  border: 1px solid var(--text-color-100);
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 0.7rem;
+  flex-wrap: wrap;
+}
+
+.inner-div h5 {
+  margin-bottom: 5px;
+}
+
+.inner-div button {
+  padding: 6px 12px;
+  background-color: #28a745;
+  color: var(--text-color-100);
+  border: none;
+  cursor: pointer;
+  border-radius: 0.7rem;
+}

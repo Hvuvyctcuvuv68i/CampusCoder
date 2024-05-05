@@ -1,0 +1,78 @@
+.upper {
+  background-color: var(--background-color);
+}
+.container3 {
+  height: 60px;
+  display: flex;
+  justify-content: end;
+}
+.search-contain {
+  border: 2px solid var(--text-color-100);
+  margin-right: 1.2rem;
+  margin: 2rem;
+  width: 50%;
+  padding-top: 1.2rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  padding-bottom: 1.2rem;
+  border-radius: 5rem;
+}
+.bt-login {
+  border-radius: 5px;
+  margin: 1.9rem;
+  margin-right: 1.2rem;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.container4 {
+  font-size: 1.3rem;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
+}
+.custom-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.custom-table th,
+.custom-table td {
+  border: 1px solid var(--text-color-100);
+  padding: 8px;
+  text-align: center;
+  color: var(--text-color-100);
+}
+.upload {
+  display: flex;
+  justify-content: center;
+}
+
+.edit {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  font-size: 1.2rem;
+}
+
+.edit-App {
+  border-radius: 5px;
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.b-log {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.open {
+  border-radius: 5px;
+}
